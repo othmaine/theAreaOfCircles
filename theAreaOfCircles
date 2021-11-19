@@ -1,0 +1,25 @@
+
+package theAreaOfTheCircle;
+import java.util.Scanner;
+public class TheErea {
+
+    public static void main(String[] args) {
+       byte i = 3; 
+      while(i != 1){ 
+        System.out.println("Enter radius in cm");
+        Scanner scanner = new Scanner(System.in);
+        float radius = scanner.nextFloat();
+        float area = 3.14f*radius*radius;
+         
+        if(radius>0){
+            
+            System.out.println("The erea ="+area +"cm");
+         }
+        else
+            System.err.println("can't be < 0");
+        System.out.println("Enter 1 to stop ,enter any number else to continue");
+        i = scanner.nextByte ();
+            
+        }
+    }
+    }
